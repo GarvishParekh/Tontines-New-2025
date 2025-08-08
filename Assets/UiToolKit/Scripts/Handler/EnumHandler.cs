@@ -4,7 +4,9 @@ namespace UI.ToolKit
     {
         NULL,
         CHARACTER_SELECTION,
-        MAIN_MENU
+        MAIN_MENU,
+        COUNTDOWN_CANVAS,
+        GAMEPLAY_CANVAS
     }
 
     public enum PopUpNames

@@ -50,6 +50,11 @@ public class CharacterSelectionUiController : MonoBehaviour
         UI.ToolKit.ActionHandler.ChangeSceneWithTransitionAction?.Invoke("MainMenuScene");
     }
 
+    public void B_Attack()
+    {
+        UI.ToolKit.ActionHandler.ChangeSceneWithTransitionAction?.Invoke("GameplayScene");
+    }
+
     public void OnSelectCharacter(int m_selectedCharacter)
     {
         nextButton.SetActive(true);
@@ -94,6 +99,4 @@ public class CharacterSelectionUiController : MonoBehaviour
                 break;
         }
     }
-
-   
 }

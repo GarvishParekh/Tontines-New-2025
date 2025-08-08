@@ -1780,6 +1780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD_Event_MatchType_01
       objectReference: {fileID: 0}
+    - target: {fileID: 453274854302217916, guid: 7d5f9e2e84bfbb046af63df5eead8b68, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3873273199270069653, guid: 7d5f9e2e84bfbb046af63df5eead8b68, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
